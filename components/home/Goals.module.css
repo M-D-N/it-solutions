@@ -1,0 +1,30 @@
+.goals{
+    margin-top: 200px;
+}
+.goalsItem{
+    &>div{
+        border: 1px solid #95989D;
+        border-radius: 70px;
+        padding: 50px 40px;
+        position: relative;
+        overflow: hidden;
+        span{
+            color: #2E2BD0;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        &>div{
+            h3{
+                font-size: 32px;
+                line-height: 150%;
+                font-weight: 400;
+            }
+            p{
+                color: #2F353FB2;
+                font-size: 30px;
+                line-height: 150%;
+                font-weight: 400;
+            }
+        }
+    }
+}
