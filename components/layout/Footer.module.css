@@ -1,0 +1,29 @@
+.footerTop{
+    margin: 20px 0;
+    padding: 50px;
+    border-top: 1px solid #2F353F80;
+    border-bottom: 1px solid #2F353F80;
+}
+.footerTopRightItem{
+    &>p{
+        font-size: 20px;
+        font-weight: 400;
+        color: #2F353F;
+        text-transform: lowercase;
+    }
+    ul{
+        &>p{
+            color: #2E2BD0;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+}
+.footerBottom{
+    padding: 30px 0 50px 0;
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #2F353F80;
+    }
+}
