@@ -5,6 +5,7 @@ import Herocontent from "@/components/home/Herocontent";
 import How from "@/components/home/How";
 import Why from "@/components/home/Why";
 import Tech from "@/components/home/Tech";
+import Industries from "@/components/home/Industries";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Why />
       <How />
       <Tech />
+      <Industries />
     </section>
   );
 }

@@ -1,3 +1,5 @@
+import Image from "next/image";
+import styles from './Tech.module.css';
 export default function Tech() {
     const techsTop = [
         {
@@ -8,14 +10,15 @@ export default function Tech() {
     const techs = [
         {
             name: 'Title of the first technology',
-            icon: 'js.svg'
+            icon: './js.svg',
+            className: `${styles.techItemActive}`
         },
         {
             name: 'Second technology description',
             icon: 'js.svg'
         },
         {
-            name: 'Third technology descriptiony',
+            name: 'Third technology description',
             icon: 'js.svg'
         },
         {
@@ -40,11 +43,17 @@ export default function Tech() {
         }
     ];
     return(
-        <section className="container">
-
-            <h3>{techsTop[0].name}</h3>
-            <p>{techsTop[0].description}</p>
-
+        <section className="container py-25 flex flex-col items-start justify-start gap-25">
+            <h3 className="text-[#2F353F] text-[60px] font-normal">{techsTop[0].name}</h3>
+            <p className="text-[24px] font-normal leading-[150%] text-[#2F353FB2] w-[45%] ml-auto mr-[20%]">{techsTop[0].description}</p>
+            <div className={"flex justify-center items-start gap-7 " + styles.techContainer}>
+                {techs.map((item, index) => (
+                    <div className={styles.techItem + " " + item.className} key={index}>
+                        <p>{item.name}</p>
+                        <Image src={item.icon} alt={item.icon} width={80} height={80} />
+                    </div>
+                ))}
+            </div>
         </section>
     );
 }
