@@ -29,3 +29,19 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+.active{
+    border: none !important;
+}
+
+.last{
+  color: #fff;
+  background: linear-gradient(86.55deg, #2E2BD0 -68.23%, #7876F2 165.71%);
+  h3{
+    color: #FFFFFF;
+  }
+  
+  p{
+    color: #FFFFFFB2;
+  }
+}

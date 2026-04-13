@@ -1,0 +1,16 @@
+.howBtn{
+    margin-top: 100px;
+    a{
+        width: 250px;
+        font-size: 30px;
+        line-height: 130%;
+        font-weight: 400;
+        border-radius: 50%;
+        padding: 80px 50px;
+        border: 1px solid #2F353F;
+        color: #2F353F;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}

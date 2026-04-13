@@ -2,6 +2,9 @@
 import Goals from "@/components/home/Goals";
 import Hero from "@/components/home/Hero";
 import Herocontent from "@/components/home/Herocontent";
+import How from "@/components/home/How";
+import Why from "@/components/home/Why";
+import Tech from "@/components/home/Tech";
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
       <Hero />
       <Herocontent />
       <Goals />
+      <Why />
+      <How />
+      <Tech />
     </section>
   );
 }
