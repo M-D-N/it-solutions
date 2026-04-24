@@ -6,6 +6,7 @@ import How from "@/components/home/How";
 import Why from "@/components/home/Why";
 import Tech from "@/components/home/Tech";
 import Industries from "@/components/home/Industries";
+import Getintouch from "@/components/home/Getintouch";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <How />
       <Tech />
       <Industries />
+      <Getintouch />
     </section>
   );
 }
